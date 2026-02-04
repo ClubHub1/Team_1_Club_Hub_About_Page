@@ -63,18 +63,24 @@ MAIN PAGE STRUCTURE BEGINS HERE
               </v-card-title>
               <v-card-text class="bg-surface mt-10 text-center">
                 <P>
-                  TOOK THE ABSTRACT FROM OUR LAST PA. WILL DEFINETLY NEED WORK
-      Our webpage ClubHub will be a tool that can help and assist club officers on 
-      campus with organizational duties and management by addressing the lack of 
-      an effective, centralized webpage for officers and leaders of on campus clubs 
-      and organizations, aiming to provide success through efficient leadership. 
-      We intend to satisfy these needs by designing an accessible UI and frontend, 
-      streamlined functions and information storage for essential club information 
-      such as finances, supplemental forms, contacts, and events, and the continued 
-      improvement of a backend API to allow for seamless communication between the 
-      database and frontend. This document will go more over about the project, its 
-      significance, changes, and impacts, along with how responsibilities and 
-      risks are monitored and managed throughout the team. 
+                  ClubHub is the one-stop management tool designed for all clubs and organizations 
+                  at the University of Nevada, Reno. Through our own experiences and our 
+                  interviews with other leadership, we found a clear lack of a centralized 
+                  software that could perform essential organizational tasks. Designed by current 
+                  students and club officers, ClubHub provides an effective and convenient tool 
+                  for leaders in one place. Our member management system allows officers and 
+                  leaders to manage attendance, assign roles, and efficiently manage club membership. 
+                  For organizations that handle finances, our financial tracker can help you keep 
+                  track of dues, income, and expenses within your club. In addition, ClubHub 
+                  enables users to create and manage tasks and events, ensuring a seamless flow of 
+                  work within organizations. Not a lead? No problem! Our search function makes it 
+                  easy for students to find organizations they are interested in. Users never worry 
+                  about missing out on important events or tasks from your organizations, as all 
+                  relevant updates appear directly in your individual personalized home page. All 
+                  of this in an intuitive user interface, designed with students in mind. With full 
+                  support across all devices, simply log back into your account to pick up where you 
+                  last left off. All of this within one web platform, letting users spend less time 
+                  managing software and more time focusing on their organizations.
                 </P>
               </v-card-text>
             </v-card>
@@ -150,7 +156,9 @@ MAIN PAGE STRUCTURE BEGINS HERE
               </v-card-title>
 
               <v-card-text class="mt-5 text-center">
-                <p>Full-Stack Developer</p>
+                <p>Full-Stack Developer
+                  Manages backend connectivity and public build deployments
+                </p>
               </v-card-text>
             </v-card>
 
