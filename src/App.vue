@@ -5,7 +5,7 @@
 
     <!-- Project Description Section -->
     <section class="project-section">
-      <h2 class="section-title project-title">About the Project</h2>
+      <h2 class="section-title">About the Project</h2>
       <p class="project-description">
         Club Hub is a centralized platform designed to help students discover,
         join, and manage campus clubs more easily. Our goal is to simplify
@@ -15,7 +15,7 @@
     </section>
 
     <!-- Team Section -->
-    <h2 class="section-title project-title">Meet the Team</h2>
+    <h2 class="section-title dark-section-title">Meet the Team</h2>
 
     <div class="team-grid">
       <div
@@ -41,7 +41,11 @@
         </li>
         <li>
           MDN Web Docs —
-          <a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://developer.mozilla.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             https://developer.mozilla.org/
           </a>
         </li>
@@ -94,35 +98,42 @@ export default {
 </script>
 
 <style scoped>
+/* Page background */
 .about-page {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 2.5rem 1rem;
   text-align: center;
+  background: #1f1f1f;
+  color: #f9fafb;
+  border-radius: 12px;
 }
 
+/* Main title */
 .title {
   font-size: 2.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
 }
 
-/* Shared section title */
+/* Section titles (default for light sections) */
 .section-title {
   font-size: 1.75rem;
   margin-bottom: 1rem;
-  color: #111827; /* dark text for visibility */
+  color: #111827;
+}
+
+/* Section title on dark background */
+.dark-section-title {
+  color: #f9fafb;
 }
 
 /* Project Section */
 .project-section {
-  background: #f9fafb;
-  border-radius: 12px;
+  background: #ffffff;
+  border-radius: 14px;
   padding: 2rem;
   margin-bottom: 3rem;
-}
-
-.project-title {
-  color: #1f2933; /* ensures heading is visible */
 }
 
 .project-description {
@@ -130,7 +141,7 @@ export default {
   margin: 0 auto;
   font-size: 1.05rem;
   line-height: 1.6;
-  color: #444;
+  color: #374151;
 }
 
 /* Team Section */
@@ -143,14 +154,15 @@ export default {
 
 .team-card {
   background: #ffffff;
-  border-radius: 12px;
+  border-radius: 14px;
   padding: 1.5rem;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
 }
 
 .name {
   font-size: 1.25rem;
   margin-bottom: 0.25rem;
+  color: #111827;
 }
 
 .role {
@@ -161,13 +173,13 @@ export default {
 
 .bio {
   font-size: 0.95rem;
-  color: #555;
+  color: #374151;
 }
 
 /* References Section */
 .references-section {
-  background: #f3f4f6;
-  border-radius: 12px;
+  background: #ffffff;
+  border-radius: 14px;
   padding: 2rem;
 }
 
@@ -179,6 +191,7 @@ export default {
 .references-list li {
   margin: 0.5rem 0;
   font-size: 0.95rem;
+  color: #111827;
 }
 
 .references-list a {
