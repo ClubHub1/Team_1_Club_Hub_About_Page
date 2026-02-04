@@ -15,10 +15,14 @@ MAIN PAGE STRUCTURE BEGINS HERE
 
             <v-card
               color="surface-variant"
-              image= /homepageBG.png
+              image="/homepageBG.png"
               height="350"
               rounded="0"
             >
+              <span class="sr-only">
+                Alt text: Image of ASUN Club Fair at the University of Nevada, Reno.
+              </span>
+
               <v-card-title style="background-color: rgba(0, 0, 0, 0.5); color: white;" class="d-flex mt-15 justify-center mb-5">
                 <span class="font-weight-bold text-h4">
                   <div class="text-center mt-10">
@@ -128,7 +132,9 @@ MAIN PAGE STRUCTURE BEGINS HERE
               </v-card-title>
 
               <v-card-text class="mt-5 text-center">
-                <p>Full-Stack Developer</p>
+                <p>Full-Stack Developer;
+                  Manages student and club database
+                </p>
               </v-card-text>
             </v-card>
 
@@ -140,7 +146,9 @@ MAIN PAGE STRUCTURE BEGINS HERE
               </v-card-title>
 
               <v-card-text class="mt-5 text-center">
-                <p>Full-Stack Developer</p>
+                <p>Full-Stack Developer;
+                  Manages frontend design and webpage accessibility
+                </p>
               </v-card-text>
             </v-card>
          
