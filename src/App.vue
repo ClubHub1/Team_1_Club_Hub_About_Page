@@ -156,7 +156,7 @@ MAIN PAGE STRUCTURE BEGINS HERE
               </v-card-title>
 
               <v-card-text class="mt-5 text-center">
-                <p>Full-Stack Developer
+                <p>Full-Stack Developer;
                   Manages backend connectivity and public build deployments
                 </p>
               </v-card-text>
