@@ -40,13 +40,13 @@ MAIN PAGE STRUCTURE BEGINS HERE
           <v-col cols="12">
             <v-card
               color=#041E42
-              height="100"
               rounded="0"
               transition
             >
-              <v-card-title>
+             <v-card-title>
                   <div class="text-center mt-5 font-italic">
-                    <h2>Our CS 426 Senior Project in Computer Science, Spring 2025, at UNR's CSE Department.</h2>
+                    <h2>CS 426 Senior Project in Computer Science - Team 1 </h2>
+                    <h2>Spring 2025 - UNR CSE</h2>
                   </div>
               </v-card-title>
             </v-card>
