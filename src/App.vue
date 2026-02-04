@@ -1,63 +1,53 @@
 <template>
-  <div class="about-page">
-    <!-- Page Header -->
-    <h1 class="title">About Our Team</h1>
+  <!-- Page Header -->
+  <h1 class="title">About Our Team</h1>
 
-    <!-- Project Description Section -->
-    <section class="project-section">
-      <h2 class="section-title">About the Project</h2>
-      <p class="project-description">
-        Club Hub is a centralized platform designed to help students discover,
-        join, and manage campus clubs more easily. Our goal is to simplify
-        communication between clubs and members while providing a clean,
-        user-friendly experience for everyone involved.
-      </p>
-    </section>
+  <!-- Project Description Section -->
+  <section class="project-section">
+    <h2 class="section-title">About the Project</h2>
+    <p class="project-description">
+      TOOK THE ABSTRACT FROM OUR LAST PA. WILL DEFINETLY NEED WORK
+      Our webpage ClubHub will be a tool that can help and assist club officers on 
+      campus with organizational duties and management by addressing the lack of 
+      an effective, centralized webpage for officers and leaders of on campus clubs 
+      and organizations, aiming to provide success through efficient leadership. 
+      We intend to satisfy these needs by designing an accessible UI and frontend, 
+      streamlined functions and information storage for essential club information 
+      such as finances, supplemental forms, contacts, and events, and the continued 
+      improvement of a backend API to allow for seamless communication between the 
+      database and frontend. This document will go more over about the project, its 
+      significance, changes, and impacts, along with how responsibilities and 
+      risks are monitored and managed throughout the team. 
+    </p>
+  </section>
 
-    <!-- Team Section -->
-    <h2 class="section-title dark-section-title">Meet the Team</h2>
+  <!-- Team Section -->
+  <h2 class="section-title dark-section-title">Meet the Team</h2>
 
-    <div class="team-grid">
-      <div
-        v-for="member in teamMembers"
-        :key="member.name"
-        class="team-card"
-      >
-        <h3 class="name">{{ member.name }}</h3>
-        <p class="role">{{ member.role }}</p>
-        <p class="bio">{{ member.bio }}</p>
-      </div>
+  <div class="team-grid">
+    <div
+      v-for="member in teamMembers"
+      :key="member.name"
+      class="team-card"
+    >
+      <h3 class="name">{{ member.name }}</h3>
+      <p class="role">{{ member.role }}</p>
+      <p class="bio">{{ member.bio }}</p>
     </div>
-
-    <!-- References Section -->
-    <section class="references-section">
-      <h2 class="section-title">References</h2>
-      <ul class="references-list">
-        <li>
-          Vue.js Documentation —
-          <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">
-            https://vuejs.org/
-          </a>
-        </li>
-        <li>
-          MDN Web Docs —
-          <a
-            href="https://developer.mozilla.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            https://developer.mozilla.org/
-          </a>
-        </li>
-        <li>
-          Vite Documentation —
-          <a href="https://vitejs.dev/" target="_blank" rel="noopener noreferrer">
-            https://vitejs.dev/
-          </a>
-        </li>
-      </ul>
-    </section>
   </div>
+
+  <!-- References Section -->
+  <section class="references-section">
+    <h2 class="section-title">References</h2>
+    <ul class="references-list">
+      <li>
+        Vue.js Documentation —
+        <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">
+          https://vuejs.org/
+        </a>
+      </li>
+    </ul>
+  </section>
 </template>
 
 <script>
@@ -67,29 +57,29 @@ export default {
     return {
       teamMembers: [
         {
-          name: "Person One",
-          role: "Frontend Developer",
-          bio: "Focuses on UI/UX and building clean, responsive interfaces."
+          name: "Arwen Antes",
+          role: "ddf",
+          bio: "xyz"
         },
         {
-          name: "Person Two",
-          role: "Backend Developer",
-          bio: "Handles APIs, databases, and server-side logic."
+          name: "Aween Ali",
+          role: "ffd",
+          bio: "123"
         },
         {
-          name: "Person Three",
-          role: "Project Manager",
-          bio: "Coordinates the team and keeps the project on track."
+          name: "Daxton Johnson",
+          role: "ssa",
+          bio: "abc"
         },
         {
-          name: "Person Four",
-          role: "Designer",
-          bio: "Creates visuals, branding, and layout designs."
+          name: "Dominic Palmieri",
+          role: "Backend/Public Build Developer",
+          bio: "Ensures backend operations and public build processes."
         },
         {
-          name: "Person Five",
-          role: "Full Stack Developer",
-          bio: "Works across frontend and backend to integrate features."
+          name: "Bill Doherty",
+          role: "External Advisor",
+          bio: "ILL LEAVE THIS UP TO YOU GUYS BC IVE NEVER MET HIM"
         }
       ]
     };
